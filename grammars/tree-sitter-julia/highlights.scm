@@ -238,7 +238,7 @@
   "as" @keyword.control.import.julia)
 
 (selected_import
-  ":" @punctuation.delimiter)
+  ":" @punctuation.separator.import.julia)
 
 (struct_definition
   [
@@ -300,11 +300,11 @@
 ; Interpolation
 (string_interpolation
   .
-  "$" @punctuation.special)
+  "$" @punctuation.section.embedded.begin.julia)
 
 (interpolation_expression
   .
-  "$" @punctuation.special)
+  "$" @punctuation.section.embedded.begin.julia)
 
 ; Keyword operators
 ((operator) @keyword.operator.word.julia
