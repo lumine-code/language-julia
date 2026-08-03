@@ -1,0 +1,21 @@
+{
+  "name": "Julia",
+  "scopeName": "source.julia",
+  "type": "modern-tree-sitter",
+  "parser": "tree-sitter-julia",
+  "injectionRegex": "^(julia)$",
+  "fileTypes": ["jl"],
+  "comments": {
+    "start": "# "
+  },
+  "treeSitter": {
+    // Pin a tag or a full SHA, never a branch. Verify the ref is on the main
+    // line before trusting it — `gh api repos/OWNER/REPO/compare/<ref>...HEAD`
+    // reporting `diverged` or a nonzero `behind` means it is not.
+    "parserSource": "github:tree-sitter/tree-sitter-julia#v0.25.0",
+    "wasmBuildTool": "tree-sitter-cli#v0.26.11",
+    "grammar": "tree-sitter-julia/tree-sitter-julia.wasm",
+    "highlightsQuery": "tree-sitter-julia/highlights.scm",
+    "localsQuery": "tree-sitter-julia/locals.scm"
+  }
+}
