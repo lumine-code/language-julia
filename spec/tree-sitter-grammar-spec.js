@@ -9,7 +9,7 @@ const path = require("path");
 
 describe("Julia Tree-sitter grammar", () => {
   beforeEach(async () => {
-    await atom.packages.activatePackage("language-julia");
+    await lumine.packages.activatePackage("language-julia");
   });
 
   it("tokenizes the fixture", async () => {
