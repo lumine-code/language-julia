@@ -346,24 +346,11 @@
   prefix: (identifier) @entity.name.function.macro.julia) @string.other.julia
 
 ((string_literal) @string.quoted.docstring.julia
-  .
-  [
-    (abstract_definition)
-    (assignment)
-    (const_statement)
-    (function_definition)
-    (macro_definition)
-    (module_definition)
-    (struct_definition)
-  ])
+  (#is? test.typeAt "nextNamedSibling abstract_definition assignment const_statement function_definition macro_definition module_definition struct_definition"))
 
-(source_file
-  (string_literal) @string.quoted.docstring.julia
-  .
-  [
-    (identifier)
-    (call_expression)
-  ])
+((string_literal) @string.quoted.docstring.julia
+  (#is? test.childOfType source_file)
+  (#is? test.typeAt "nextNamedSibling identifier call_expression"))
 
 [
   (line_comment)
