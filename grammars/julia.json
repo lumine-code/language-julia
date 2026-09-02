@@ -3,7 +3,7 @@
   "scopeName": "source.julia",
   "type": "tree-sitter",
   "parser": "tree-sitter-julia",
-  "injectionRegex": "^(julia)$",
+  "injectionNames": ["julia"],
   "fileTypes": ["jl"],
   "comments": {
     "start": "# "
@@ -14,8 +14,8 @@
     // reporting `diverged` or a nonzero `behind` means it is not.
     "parserSource": "github:tree-sitter/tree-sitter-julia#v0.25.0",
     "wasmBuildTool": "tree-sitter-cli#v0.26.13",
-    "grammar": "tree-sitter-julia/tree-sitter-julia.wasm",
-    "highlightsQuery": "tree-sitter-julia/highlights.scm",
-    "localsQuery": "tree-sitter-julia/locals.scm"
+    "grammar": "julia.wasm",
+    "highlightsQuery": "julia-highlights.scm",
+    "localsQuery": "julia-locals.scm"
   }
 }

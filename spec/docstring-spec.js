@@ -2,7 +2,6 @@ describe("Julia Tree-sitter docstrings", () => {
   let editor;
 
   beforeEach(async () => {
-    lumine.config.set("editor.useTreeSitterParsers", true);
     await lumine.packages.activatePackage("language-julia");
     editor = await lumine.workspace.open("docstrings.jl");
     editor.setText(`"Function docs"
