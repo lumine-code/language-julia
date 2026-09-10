@@ -352,7 +352,7 @@
   (#is? test.childOfType source_file)
   (#is? test.typeAt "nextNamedSibling identifier call_expression"))
 
-[
-  (line_comment)
-  (block_comment)
-] @comment.line.julia
+((line_comment) @comment.line.julia
+  (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
+
+(block_comment) @comment.line.julia
