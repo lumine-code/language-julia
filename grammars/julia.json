@@ -16,6 +16,7 @@
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "julia.wasm",
     "highlightsQuery": "julia-highlights.scm",
+    "injectionsQuery": "julia-injections.scm",
     "localsQuery": "julia-locals.scm"
   }
 }
