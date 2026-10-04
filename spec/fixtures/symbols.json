@@ -1,0 +1,40 @@
+{
+  "source.julia": {
+    "text": "module Demo\nstruct Widget\n  value::Int\nend\nabstract type Root end\nprimitive type Tiny 8 end\nfunction greet(value)\n  value\nend\nscale(value) = value * 2\nconst LIMIT = 3\nmacro mark(value)\n  value\nend\nend\n# function Phantom() end\n",
+    "symbols": [
+      {
+        "name": "Demo",
+        "tag": "module"
+      },
+      {
+        "name": "Widget",
+        "tag": "struct"
+      },
+      {
+        "name": "Root",
+        "tag": "type"
+      },
+      {
+        "name": "Tiny",
+        "tag": "type"
+      },
+      {
+        "name": "greet",
+        "tag": "function"
+      },
+      {
+        "name": "scale",
+        "tag": "function"
+      },
+      {
+        "name": "LIMIT",
+        "tag": "constant"
+      },
+      {
+        "name": "mark",
+        "tag": "macro"
+      }
+    ],
+    "absent": ["Phantom"]
+  }
+}

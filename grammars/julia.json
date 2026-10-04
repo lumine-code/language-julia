@@ -15,6 +15,7 @@
     "parserSource": "github:tree-sitter/tree-sitter-julia#v0.25.0",
     "wasmBuildTool": "tree-sitter-cli#v0.27.0",
     "grammar": "julia.wasm",
+    "tagsQuery": "julia-tags.scm",
     "highlightsQuery": "julia-highlights.scm",
     "injectionsQuery": "julia-injections.scm",
     "localsQuery": "julia-locals.scm"
