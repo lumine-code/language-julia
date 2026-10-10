@@ -7,7 +7,6 @@ Julia language support.
 - **Grammars**: provides Tree-sitter grammars, built from [tree-sitter-julia](https://github.com/tree-sitter/tree-sitter-julia).
 - **Symbols**: modules, types, macros, constants and long or short functions.
 - **Syntax highlighting**: full tree-sitter grammar coverage for Julia files.
-- **Folding**: folds blocks from the parse tree rather than by indentation.
 
 ## Installation
 
