@@ -8,6 +8,8 @@ Julia language support.
 - **Symbols**: modules, types, macros, constants and long or short functions.
 - **Syntax highlighting**: full tree-sitter grammar coverage for Julia files.
 
+![Julia syntax highlighting at the default editor font size.](.github/demo.png)
+
 ## Installation
 
 To install `language-julia` search for it in the Install pane of the Lumine settings, or run the command `lumine --install lumine-code/language-julia`.

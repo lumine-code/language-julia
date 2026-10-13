@@ -1,0 +1,16 @@
+{
+  "title": "language-julia",
+  "description": "Julia syntax highlighting in the editor.",
+  "recordedOn": "2026-10-13",
+  "sourceRevision": "472ec9dd2c85d31fdd39af413e9f8bf25a19080f",
+  "mode": "normal",
+  "fontSettings": "default",
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "Julia syntax highlighting at the default editor font size.",
+      "width": 1100,
+      "height": 360
+    }
+  ]
+}
