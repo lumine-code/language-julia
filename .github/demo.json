@@ -1,16 +1,61 @@
 {
   "title": "language-julia",
-  "description": "Julia syntax highlighting in the editor.",
-  "recordedOn": "2026-10-13",
-  "sourceRevision": "472ec9dd2c85d31fdd39af413e9f8bf25a19080f",
+  "description": "Julia syntax highlighting at the default editor font size.",
+  "recordedOn": "2026-10-14",
+  "sourceRevision": "f2869bda803032c887b5f4ee5584e59067579f92",
+  "themeSourceRevision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
   "mode": "normal",
   "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "17c3d9a1985e844eddc350e12d065017a10816cc7dfedc4fed69c05d96cfd998",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "44.7.0",
+    "chrome": "152.0.7977.130",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 360 },
+  "cornerRadius": 10,
+  "sources": {
+    "editor": {
+      "revision": "c4d7a05fe6960ae6fb041981d6cf13e9c0286b17",
+      "dirty": true,
+      "workingTreeHash": "af0ec098e764416df9522f3c6e555050b520e4700da382b2b983b2ff3742bd0a"
+    },
+    "package": {
+      "revision": "f2869bda803032c887b5f4ee5584e59067579f92",
+      "dirty": true,
+      "workingTreeHash": "e22341a704bd9d86e33dc9526bcce7d7489d7dfceffdf80d38c3bd7bd21457a1"
+    },
+    "language-julia": {
+      "revision": "f2869bda803032c887b5f4ee5584e59067579f92",
+      "dirty": true,
+      "workingTreeHash": "e22341a704bd9d86e33dc9526bcce7d7489d7dfceffdf80d38c3bd7bd21457a1"
+    },
+    "one-theme": {
+      "revision": "14a69683b0e3238e2bc128fbfae3866c1e4ee9c6",
+      "dirty": true,
+      "workingTreeHash": "50ec2f83a6347dd8113870992ec4eb2be4014f3d9e12213c2f51b543f1eca793"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "example.jl",
+      "sha256": "998555b6b1b8a1953dd55159a8dbf892d2596dbaf85e837c33de14238663901d"
+    }
+  ],
   "images": [
     {
       "file": "demo.png",
       "label": "Julia syntax highlighting at the default editor font size.",
       "width": 1100,
-      "height": 360
+      "height": 360,
+      "sha256": "c5a18d39a1a5a1f39c9dfcf237dcd957e32d3ea2ed5101da498a1a84cad45e9c"
     }
   ]
 }
