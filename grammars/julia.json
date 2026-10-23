@@ -18,6 +18,8 @@
     "tagsQuery": "julia-tags.scm",
     "highlightsQuery": "julia-highlights.scm",
     "injectionsQuery": "julia-injections.scm",
-    "localsQuery": "julia-locals.scm"
+    "localsQuery": "julia-locals.scm",
+    "foldsQuery": "julia-folds.scm",
+    "indentsQuery": "julia-indents.scm"
   }
 }

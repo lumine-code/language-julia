@@ -30,6 +30,7 @@ SOFTWARE.
 ----- BEGIN THIRD-PARTY LICENSE: upstream:nvim-treesitter_nvim-treesitter -----
 Source: https://github.com/nvim-treesitter/nvim-treesitter
 Revision: Apache-2.0 terms; nvim-treesitter query attribution retained in julia-highlights.scm
+Additional query adaptations: folds, indentation and literal-language injections from nvim-treesitter/nvim-treesitter at 29212d826054bb2948fa9d3a99eca9bf6a050eb2.
 
 Original file: LICENSE
 
