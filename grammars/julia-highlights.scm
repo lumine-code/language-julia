@@ -355,4 +355,4 @@
 ((line_comment) @comment.line.julia
   (#set! adjust.endBeforeFirstMatchOf "\\r?$"))
 
-(block_comment) @comment.line.julia
+(block_comment) @comment.block.julia
