@@ -41,6 +41,8 @@
   "specPackages": [
     "language-gfm",
     "language-regex",
-    "language-shellscript"
+    "language-shellscript",
+    "bracket-matcher",
+    "language-source"
   ]
 }

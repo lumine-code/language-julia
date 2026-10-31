@@ -5,6 +5,7 @@
   "parser": "tree-sitter-julia",
   "injectionNames": ["julia"],
   "fileTypes": ["jl"],
+  "firstLineRegex": "^#![ \\t]*(?:(?:[^\\s]+[\\\\/])?(?:julia(?:\\.exe)?)|(?:[^\\s]+[\\\\/])?env(?:\\.exe)?[ \\t]+(?:-S[ \\t]+)?(?:julia(?:\\.exe)?))(?:[ \\t\\r\\n]|$)",
   "comments": {
     "start": "# "
   },
