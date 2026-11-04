@@ -21,6 +21,9 @@
     "injectionsQuery": "julia-injections.scm",
     "localsQuery": "julia-locals.scm",
     "foldsQuery": "julia-folds.scm",
-    "indentsQuery": "julia-indents.scm"
+    "indentsQuery": "julia-indents.scm",
+    "contentEditPolicies": {
+      "content-words": "../lib/content-edit-policy.js"
+    }
   }
 }

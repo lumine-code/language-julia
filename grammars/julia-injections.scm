@@ -2,11 +2,13 @@
 ((string_literal (content) @injection.content) @injection.owner
   . [(abstract_definition) (assignment) (const_statement) (function_definition)
      (macro_definition) (module_definition) (struct_definition)]
-  (#set! injection.language "markdown"))
+  (#set! injection.language "markdown")
+  (#set! injection.content-edit-policy "content-words"))
 ((source_file
    (string_literal (content) @injection.content) @injection.owner
    . [(identifier) (call_expression)])
-  (#set! injection.language "markdown"))
+  (#set! injection.language "markdown")
+  (#set! injection.content-edit-policy "content-words"))
 ((prefixed_string_literal prefix: (identifier) @_prefix
    (content) @injection.content) @injection.owner
   (#eq? @_prefix "r")
@@ -14,9 +16,11 @@
 ((prefixed_string_literal prefix: (identifier) @_prefix
    (content) @injection.content) @injection.owner
   (#eq? @_prefix "md")
-  (#set! injection.language "markdown"))
+  (#set! injection.language "markdown")
+  (#set! injection.content-edit-policy "content-words"))
 ((command_literal (content) @injection.content) @injection.owner
-  (#set! injection.language "bash"))
+  (#set! injection.language "bash")
+  (#set! injection.content-edit-policy "content-words"))
 
 ([
   (line_comment)
